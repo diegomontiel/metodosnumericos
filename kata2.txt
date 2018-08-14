@@ -1,0 +1,25 @@
+kata 2
+
+1.
+def minMaxLengthAverage(arr):
+    minimo = min(arr)
+    maximo = max(arr)
+    largo = len(arr)
+    promedio = sum(arr)/largo
+    return [minimo,maximo,largo,promedio]
+
+2.
+def filter_list(lst):
+  numero =[]
+  for x in lst:
+    if not type(x) == str:
+      numero.append(x)
+  return numero
+
+3.
+def removeDups(lst):
+  r = []
+  for x in lst:
+    if x not in r:
+      r.append(x)
+  return r
