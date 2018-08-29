@@ -1,0 +1,28 @@
+5.1
+def minMaxLengthAverage(arr):
+    return [min(arr), max(arr), len(arr), sum(arr)/len(arr)]
+
+
+5.2
+def sum_two_smallest_nums(lst):
+	positives = []
+	sum = 0
+	
+	for i in lst:
+		if i >= 0:
+			positives.append(i)
+	
+	for i in range(2):
+		x = min(positives)
+		sum += x
+		positives.remove(x)
+	return sum
+
+5.3
+def cumulative_sum(lst):
+  s=0
+  lst2=[]
+  for i in lst:
+    s+=i
+    r.append(s)
+  return r
