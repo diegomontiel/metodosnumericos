@@ -1,6 +1,7 @@
 # metodosnumericos
 
 Contenido: 
+
   -Algebra Lineal: en este método se realiza la multiplicacion de matrices para obtener el valor de variables. En esta misma se incluyen      metodos como la obtención de la matriz inversa.
   
   -Bairstow: Permite calcular todas las raices de un polinomio, este utiliza el metodo de NEWTON-RAPHSON 
@@ -21,11 +22,15 @@ Contenido:
  
  -Integracion: Metodo numerico para obtener la area bajo la curva de una funcion mediante la sumatoria de trapecios obtenidos por intervalos iguales, tambien se encuentran los metodos de Simpson que consisten en dividir la gráfica.
  
+ -Newton-Raphson: Metodo que utilizamo para encontrar raices, pero con la condicion de tener el valor mas cercano a la raiz para que pueda converger.
+ 
  -Polinomio Lagrange: Un polinomio que interpola diviendo los terminos evitando la division entre cero. 
  
  -Programación Simbólica: Nos permite representar nuestras funciones con variables y que el codigo las interprete como tal.
  
  -Punto Fijo y método gráfico: genera valores que convergen en la raiz para obtenerla. 
+ 
+ -Regresion: La regresion nos permite encontrar los coeficientes en una funcion. La regresion lineal sirve para obtener una incognita de una variable con un punto definido que esta entre otros dos puntos definidos y de los cuales conocemos las variables. La regresion polinomial nos sirve para conocer las variables de coeficientes. 
  
  -Runge-Kutta: Metodo para la resolucion de ecuaciones diferenciales que esta basado en la fórmula de Euler{
  
